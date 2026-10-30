@@ -1,0 +1,15 @@
+{
+  "name": "cadeia-de-adicao",
+  "version": "1.0.0",
+  "description": "Cadeias de adicao minimas varridas em Node puro: a busca contra o metodo binario e contra os limites, sem dependencia nenhuma.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
